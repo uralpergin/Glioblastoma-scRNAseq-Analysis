@@ -1,0 +1,34 @@
+# Large model files
+*.pt
+*.ckpt
+models/
+
+# Large data files
+*.h5
+*.h5ad
+*.gz
+data/
+
+documents/
+
+save/
+
+# Outputs (figures etc. - optional)
+outputs/
+*.npy
+*.pkl
+*.csv
+
+.log_cache/
+
+LightningSDE-FixedPotential-RegularizedVelocityRatio/
+
+backup/
+
+# Python/Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda
+*.egg-info/
